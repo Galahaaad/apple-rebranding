@@ -1,0 +1,132 @@
+@font-face
+    font-family: 'SF-Pro'
+    src: url('assets/fonts/SFPro/SF-Pro.otf') format('otf')
+
+*
+    padding: 0
+    margin: 0
+
+body
+    font-family: 'SF-Pro-Display', sans-serif
+    background: rgb(16,39,62)
+    background: linear-gradient(90deg, rgba(16,39,62,1) 0%, rgba(19,43,68,1) 50%, rgba(25,51,78,1) 100%)
+    color: white
+    
+.navigation
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-left: 10%
+    margin-right: 10%
+    margin-top: 2%
+    width: 75vw
+    .navbar
+        display: flex
+        align-items: center
+        text-decoration: none
+        list-style-type: none
+        background: rgb(16,39,62)
+        background: linear-gradient(90deg, rgba(16,39,62,1) 0%, rgba(27,52,80,1) 100%)
+        width: 700px
+        height: 50px
+        padding: 10px 50px 10px 50px
+        border-radius: 50px 
+        li
+            font-size: 15px
+            cursor: pointer
+            font-weight: bold
+            img
+                height: 70px
+        .rightPart
+            margin-left: auto
+            align-items: right
+    .navButton
+        padding: 27px 50px 27px 50px
+        font-size: 13px
+        font-weight: bold
+        border-radius: 50px
+        border: none
+        outline-style: none
+        color: white
+        background: #0097e4
+        cursor: pointer
+        transition: 1s
+        &:hover
+            letter-spacing: 5px
+
+
+.airpodsContainer 
+    margin-top: 7%
+    margin-left: 10%
+    margin-right: 10%
+    text-align: center
+    border: 10px dotted #1b334f
+    border-left: none
+    border-right: none
+    .date
+        font-size: 250px
+        font-weight: bold
+        color: #1b334f
+    .productName
+        font-size: 50px
+        font-weight: bold
+        margin-top: -30px
+    .productImages
+        position: relative
+        margin-top: -350px
+        #airpodsLeft
+            width: 10%
+            margin-right: 20px
+        #airpodsRight
+            width: 10%
+    .seeFeetures
+        padding: 20px 50px 20px 50px
+        margin-top: 20px
+        background: #0097e4
+        color: white
+        font-size: 15px
+        border: none
+        border-radius: 50px
+        cursor: pointer
+        font-weight: bold
+        transition: 1s
+        &:hover
+            letter-spacing: 5px
+    .appCompatible
+        margin-top: 180px
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-left: auto
+        margin-right: auto
+        #appleWhite
+            width: 3%
+        #spotifyWhite
+            width: 11%
+            padding-right: 20px
+        #deezerWhite
+            width: 11%
+        p
+            font-size: 20px
+            margin-left: 10px
+            font-weight: bold
+            color: white
+            padding-right: 20px
+        
+.airpodsVideo
+    position: absolute
+    top: 35vh
+    left: 30vw
+    display: none
+    transition: ease-in-out 1s
+    .close
+        font-size: 20px
+        font-weight: bold
+        position: absolute
+        top: 5px
+        right: 5px
+        color: white
+        cursor: pointer
+        background: #0097e4
+        padding: 2px 8px 2px 8px
+        border-radius: 10px
