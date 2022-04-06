@@ -350,7 +350,7 @@ body {
 
 .largeCards .largeComponent {
   width: 410px;
-  height: 600px;
+  height: 580px;
   background: #1b3754;
   border-radius: 20px;
   border: 2px solid #2d4661;
@@ -361,5 +361,37 @@ body {
 
 .largeCards .largeComponent img {
   width: 25%;
+}
+
+.largeCards .largeComponent .largeComponentTitle {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+.largeCards .largeComponent .largeComponentDetails {
+  margin-top: 50px;
+}
+
+.largeCards .largeComponent .largeComponentDetails .lcDetails, .largeCards .largeComponent .largeComponentDetails .lcDetailsLast {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.largeCards .largeComponent .largeComponentDetails .lcDetails img, .largeCards .largeComponent .largeComponentDetails .lcDetailsLast img {
+  width: 50px;
+  height: 50px;
+  padding-right: 20px;
+}
+
+.largeCards .largeComponent .largeComponentDetails .lcDetailsLast {
+  padding-bottom: 0px;
 }
 /*# sourceMappingURL=style.css.map */
